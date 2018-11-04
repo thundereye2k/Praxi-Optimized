@@ -1,0 +1,81 @@
+ladders:
+  Classic:
+    enabled: true
+    build: false
+    sumo: false
+    parkour: false
+    regeneration: true
+    display-name: "&eClassic"
+    display-icon:
+      material: IRON_SWORD
+      durability: 0
+    kit-editor:
+      allow-potion-fill: true
+      items:
+        1:
+          material: COOKED_BEEF
+          amount: 64
+        2:
+          material: GOLDEN_CARROT
+          amount: 64
+        3:
+          material: POTION
+          durability: 16388
+        4:
+          material: POTION
+          durability: 16426
+        5:
+          material: POTION
+          durability: 16421
+        6:
+          material: POTION
+          durability: 8226
+  NoDebuff:
+    enabled: true
+    build: false
+    sumo: false
+    parkour: false
+    regeneration: true
+    display-name: "&6NoDebuff"
+    display-icon:
+      material: DIAMOND_SWORD
+      durability: 0
+    kit-editor:
+      allow-potion-fill: true
+      items:
+        1:
+          material: COOKED_BEEF
+          durability: 0
+          amount: 64
+        2:
+          material: GOLDEN_CARROT
+          durability: 0
+          amount: 64
+        3:
+          material: POTION
+          durability: 16421
+          amount: 1
+        4:
+          material: POTION
+          durability: 8226
+          amount: 1
+  BuildUHC:
+    enabled: true
+    build: true
+    sumo: false
+    parkour: false
+    regeneration: false
+    display-name: "&eBuildUHC"
+    display-icon:
+      material: LAVA_BUCKET
+      durability: 0
+  Axe:
+    enabled: true
+    build: false
+    sumo: false
+    parkour: false
+    regeneration: true
+    display-name: "&bAxe"
+    display-icon:
+      material: IRON_AXE
+      durability: 0
